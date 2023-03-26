@@ -1,0 +1,57 @@
+.mentalIssuesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+
+.card-content {
+  padding: 20px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card > a > button {
+  width: 30%;
+  padding: 1.5rem 4rem;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  cursor:  pointer;
+  transition: all .2s ease;
+  font-weight: 400;
+}
+.card a > button:hover {
+  transform: translateY(-.5rem);
+  background-color: white;
+  color: black;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.card-description {
+  margin: 10px 0 0;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+

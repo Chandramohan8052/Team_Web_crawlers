@@ -1,0 +1,77 @@
+.resultContainer {
+    color: white;
+    width: 80%;
+    /* padding-top: 15%; */
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    text-align: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.positiveNews {
+    height: 100vh;
+}
+.negativeNews {
+    height: 200vh;
+}
+
+.resultContainer .animation {
+    height: 20vh;
+    width: 30vw;
+    margin-bottom: 3rem;
+    transform: translateY(-15rem);
+}
+.animation2 {
+    transform: translateY(-20rem);
+    height: 10vh;
+    width: 10vw;
+}
+.resultContainer > div {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgContainer > div {
+    margin: 1rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.imgContainer > div > img {
+    height: 100%;
+    width: 100%;
+}
+
+.resultContainer > div  h1 {
+    font-size: 3.5rem;
+    color: transparent;
+    background: linear-gradient(to right, rgb(208, 83, 208), rgb(255, 255, 255));
+    background-clip: text;
+}
+.resultContainer > div  p {
+    font-size: 2rem;
+}
+@media only screen and (max-width: 900px) {
+    .resultContainer {
+        width: 100%;
+        margin-left: 0;
+        height: 140vh;
+
+    }
+    .animation2 {
+        transform: translateY(-5rem);
+    }
+    .resultContainer .animation {
+        transform: none;
+    }
+}
